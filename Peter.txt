@@ -1,0 +1,21 @@
+PS /Users/peterwright> mkdir softdevi
+PS /Users/peterwright> ls
+Applications	Downloads	Music		filestore
+Desktop		Library		Pictures	softdevi
+Documents	Movies		Public
+PS /Users/peterwright> cd ./softdevi/
+PS /Users/peterwright/softdevi> 
+PS /Users/peterwright/softdevi> mkdir unit01
+PS /Users/peterwright/softdevi> mkdir unit01
+PS /Users/peterwright/softdevi> cd ./unit01/
+PS /Users/peterwright/softdevi/unit01> touch file01.txt
+PS /Users/peterwright/softdevi/unit01> cp file01.txt file02.txt
+PS /Users/peterwright/softdevi/unit01> mkdir assignment01
+PS /Users/peterwright/softdevi/unit01> cd ./assignment01/
+PS /Users/peterwright/softdevi/unit01/assignment01> 
+PS /Users/peterwright/softdevi/unit01/assignment01> mkdir Peter
+PS /Users/peterwright/softdevi/unit01/assignment01> cd ./Peter/  
+PS /Users/peterwright/softdevi/unit01/assignment01/Peter> mv /Users/peterwright/softdevi/unit01/file02.txt /Users/peterwright/softdevi/unit01/assignment01/Peter
+PS /Users/peterwright/softdevi/unit01/assignment01/Peter> cd..
+PS /Users/peterwright/softdevi/unit01/assignment01> cd..
+PS /Users/peterwright/softdevi/unit01> rm -rf assignment01
